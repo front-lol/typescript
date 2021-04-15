@@ -1,4 +1,4 @@
-interface User{
+interface User3{
     name:string
 }
 
@@ -7,11 +7,11 @@ interface Action{
 }
 
 //리턴값을 intersection으로 두개로 가능
-function createUserAction(u:User,a:Action):User & Action{
+function createUserAction2(u:User3,a:Action):User3 & Action{
     return {...u,...a}
 }
 
-const u = createUserAction({name:'jay'},{do(){}})
+const u = createUserAction2({name:'jay'},{do(){}})
 
 
 //union

@@ -1,13 +1,13 @@
-interface User{
+interface User5{
     name:string
 }
 
-interface Action{
+interface Action5{
     do():void
 }
 
 //타입 별칭 정하기
-type UserAction = User & Action
+type UserAction = User5 & Action5
 function createUserAction():UserAction{
     return{
         do(){},

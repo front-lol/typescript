@@ -29,6 +29,6 @@ class PromotionCart extends Cart{
     }
 }
 
-const cart1 = new PromotionCart({name:'john'})
-const cartJohn = new Cart({name:'john'})
-const cartJay = new Cart({name:'jay'})
+// const cart1 = new PromotionCart({name:'john'})
+// const cartJohn = new Cart({name:'john'})
+// const cartJay = new Cart({name:'jay'})
