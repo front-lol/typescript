@@ -9,7 +9,8 @@
         "module":"commonjs",
         "rootDir":"src",
         "outDir":"dist",
-        "target":"es5",
+        // "target":"es5",
+        "lib":["es2015","DOM"],
         "sourceMap": true, //ts 도 빌드
         "removeComments": true, // 커멘트제거
         // "noImplicitAny":true // any 형태 선언 방지

@@ -20,7 +20,7 @@ function tryTurnOn(tv:TV){
 
 tryTurnOn(myTV)
 
-
+//? 물음표는 변수가 없어도 동작하도록 해줌
 interface Cell{
     row:number
     col:number
