@@ -3,5 +3,4 @@ class Test{
         console.log("test");
     }
 }
-
 new Test();
