@@ -24,4 +24,3 @@ usr = {
 
 let tuple2:[number,string]
 tuple2=[1,'a']
-
